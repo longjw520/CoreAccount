@@ -1,0 +1,45 @@
+{
+  "datagramHeader" : {
+    "messageVer" : "1.0",
+    "encryptionTag" : "0000",
+    "userName" : "weichxi",
+    "password" : "weichxi",
+    "senderId" : 320,
+    "senderSystemCode" : "200300",
+    "receiverSystem" : "200700",
+    "sendTime" : "2013-04-11 01:20:03",
+    "format" : "txt",
+    "messageSequence" : "1304281440",
+    "messageCode" : "030003",
+    "length" : 12,
+    "priority" : 2,
+    "requestStatus" : "000",
+    "actualTradeTime":"2013-05-08 11:30:32"
+  },
+  "datagramBody" : {
+    "buyerAccount" : "00000001000000060002",
+    "frozenAmount" : 20,
+    "frozenAmountMemo" : "frozenAmountMemo",
+    "unfreezeAmount" : "30",
+    "unfreezeAmountMemo" : "unfreezeAmountMemo",
+    "managementFee" : 20,
+    "managementFeeMemo" : "managementFeeMemo",
+    "fixProduTranSerFee" : 40,
+    "fixProduTranSerFeeMemo" : "fixProduTranSerFeeMemo",
+    "urgSerFee" : 50,
+    "urgSerFeeMemo" : "urgSerFeeMemo",
+    "operator" : "001",
+    "authTeller" : "002",
+    "organ" : "003",
+    "operateTime" : null,
+    "operateCode" : "02",
+    "memo" : null,
+    "debtAssignments" : [ {
+      "financeId" : 150,      
+      "contractDeliveryDatePV" : 8600,
+      "deliveryDatePV" : 8700,
+      "debtProportion" : 0.1,
+      "unfreezeProportion" : 0.1
+    } ]
+  }
+}

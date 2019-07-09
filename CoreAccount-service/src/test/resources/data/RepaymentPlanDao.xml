@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<AC_T_LEDGER id="1" account="1343" acct_status="1"
+		busi_type="1" />
+	<AC_T_LEDGER_LOAN id="1" ledger_id="1" />
+	<AC_T_LEDGER_LOAN id="2" ledger_id="1" />
+	<AC_T_LEDGER_LOAN id="3" ledger_id="1" />
+	<AC_T_LEDGER_LOAN id="4" ledger_id="1" />
+	<AC_T_REPAYMENT_PLAN id="1" loan_id="1" amt="12"
+		repay_day="2099-10-12" />
+	<AC_T_REPAYMENT_PLAN id="2" loan_id="1" amt="13"
+		repay_day="2099-10-12" />
+	<AC_T_REPAYMENT_PLAN id="3" loan_id="2" amt="125"
+		repay_day="2090-10-12" CURR_NUM="0" />
+	<AC_T_REPAYMENT_PLAN id="4" loan_id="3" amt="1255"
+		repay_day="2013-10-12" />
+</dataset>

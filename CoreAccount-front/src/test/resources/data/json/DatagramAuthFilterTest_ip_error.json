@@ -1,0 +1,28 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.0",
+      "encryptionTag":"0000",
+      "userName":"zhangsan",
+      "password":"123456",
+      "senderId":320,
+      "senderSystemCode":"200300",
+      "receiverSystem":"200700",
+      "sendTime":1363090521953,
+      "format":"txt",
+      "messageSequence":"01001",
+      "messageCode":"010002",
+      "length":12,
+      "priority":2,
+      "requestStatus":"000"
+   },
+   "datagramBody":{
+      "totalAccountId":"123",
+			"operator":"001",
+			"authTeller":"002",
+			"organ":"003",
+			"account":"0012",
+			"operateTime":null,
+			"operateCode":"02",
+			"memo":"beizhu"
+   }
+}

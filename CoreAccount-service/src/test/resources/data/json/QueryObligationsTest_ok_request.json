@@ -1,0 +1,27 @@
+{
+  "datagramHeader" : {
+    "messageVer" : "1.000001",
+    "encryptionTag" : "0000000",
+    "userName" : "test",
+    "password" : "test",
+    "senderId" : "320320320320320320320320320320",
+    "senderSystemCode" : "200301200301200301200304011147",
+    "receiverSystem" : "200700200700200700200700200700",
+    "sendTime" : "2013-12-12 11:00:11",
+    "format" : "txttxttxttxttxttxt",
+    "messageSequence" : "10300103001030010300104030946",
+    "messageCode" : "990004",
+    "length" : 3000,
+    "priority" : 99,
+    "requestStatus" : "000",
+    "actualTradeTime":"2013-05-08 11:30:32"
+  },
+  "datagramBody" : {
+    "operator" : "001",
+    "organ" : "003",
+    "authTeller" : "002",
+    "operateTime" : null,
+    "operateCode" : "02",
+    "memo" : null
+  }
+}

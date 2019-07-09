@@ -1,0 +1,32 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.0",
+      "encryptionTag":"0000",
+      "userName":"test",
+      "password":"test",
+      "senderId":320,
+      "senderSystemCode":"200300",
+      "receiverSystem":"200700",
+      "sendTime":"2013-04-11 01:20:03",
+      "format":"txt",
+      "messageSequence":"130412155219",
+      "messageCode":"020001",
+      "length":12,
+      "priority":2,
+      "requestStatus":"000",
+      "actualTradeTime":"2013-05-08 11:30:32"
+   },
+   "datagramBody":{
+			"operator":"001",
+			"authTeller":"002",
+			"organ":"003",
+			"account":"0000000100000002000",
+			"rechargeAmount":1110.01,
+			"rechargeCommission":20.00,
+			"rechargeAmountMemo":"beizhu",
+			"operateTime":null,
+			"operateCode":"02",
+			"rechargeCommissionMemo":"beizhu",
+			  "memo" : null
+   }
+}

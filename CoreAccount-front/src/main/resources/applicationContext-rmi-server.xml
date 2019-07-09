@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=
+	"http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd"
+	default-lazy-init="false">
+
+	<description>Spring RMI</description>
+
+	<bean id="rmiServiceExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">
+		<!-- does not necessarily have to be the same name as the bean to be exported -->
+		<property name="serviceName" value="rmiService" />
+		<property name="service" ref="rmiServiceImpl" />
+		<property name="serviceInterface" value="com.zendaimoney.coreaccount.rmi.IRmiService" />
+		<property name="registryPort" value="9987" />
+	</bean>
+</beans> 

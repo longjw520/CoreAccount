@@ -1,0 +1,31 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.0",
+      "encryptionTag":"0000",
+      "userName":"Michael",
+      "password":"123456",
+      "senderId":320,
+      "senderSystemCode":"200300",
+      "receiverSystem":"200700",
+      "sendTime":"2013-05-08 11:30:32",
+      "format":"txt",
+      "messageSequence":"01003222",
+      "messageCode":"990005",
+      "length":12,
+      "priority":2,
+      "requestStatus":"000",
+      "actualTradeTime":"2013-05-08 11:30:32"
+   },
+   "datagramBody":{
+      "id":156,
+      "date":"2013-05-21",
+	  "pageSize":10,
+	  "pageNo":1,
+      "organ":"001002",
+      "authTeller":"123",
+      "operateTime":"2013-03-12 12:30:32",
+      "operateCode":"23",
+      "operator":"1",
+      "memo":"calculate pv memo"
+   }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<AC_T_BUSINESS_TYPE ID="1" NAME="admin" TYPE="01" CODE="111"></AC_T_BUSINESS_TYPE>
+	<AC_T_BUSINESS_TYPE ID="2" NAME="joey" TYPE="02" CODE="222"></AC_T_BUSINESS_TYPE>
+</dataset>

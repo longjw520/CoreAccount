@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"
+	default-autowire="byName" default-lazy-init="false">
+	<util:map id="businessImpls">
+		<entry key="000003" value-ref="calculateAccrualHandler" />
+		<entry key="000004" value-ref="cachePvHandler" />
+		
+		<entry key="010001" value-ref="createCustomerMessageHandler" />
+		<entry key="010002" value-ref="createLedgerMessageHandler" />
+		<entry key="010003" value-ref="createLoanLedgerMessageHandler" />
+		<entry key="010004" value-ref="createLoanHouseholdHandler" />
+		<entry key="010005" value-ref="disableLedgerMessageHandler" />
+		<entry key="010006" value-ref="accountStaUpdateHandler" />
+		
+		<entry key="020001" value-ref="rechargeHandler" />
+		<entry key="020002" value-ref="frozenOrUnfreezeAmountHandler" />
+		<entry key="020005" value-ref="withdrawCashHandler" />
+		<entry key="020041" value-ref="repaymentHandler" />
+		<entry key="020042" value-ref="makeLoanHandler" />
+		<entry key="020043" value-ref="transferAccountHandler" />
+		<entry key="020044" value-ref="chargeManagementCostHandler" />
+		<entry key="020045" value-ref="latePaymentInterestHandler" />
+		<entry key="020046" value-ref="expiryInterestHandler" />
+		<entry key="020047" value-ref="earlySettlementHandler" />
+		
+		<entry key="030003" value-ref="debtAssignmentHandler" />
+		<entry key="030005" value-ref="originalLoanTradeHandler" />
+		<entry key="030006" value-ref="froOrUnfreProportionHandler" />
+		<entry key="030007" value-ref="externalLoanInitializationHandler" />
+		<entry key="030008" value-ref="regressLoanTradeHandler" />
+		
+		<entry key="060001" value-ref="reverseHandler" />
+		
+		<entry key="990001" value-ref="queryLedgerLoanHandler" />
+		<entry key="990002" value-ref="queryLedgerFinanceHandler" />
+		<entry key="990003" value-ref="queryAccountsReceivableAndPayableHandler" />
+		<entry key="990004" value-ref="queryLedgerHandler" />
+		<entry key="990005" value-ref="queryPvHandler" />
+		<entry key="990006" value-ref="queryRepaymentPlanHandler" />
+		<entry key="990007" value-ref="queryReturnValueHandler" />
+	</util:map>
+</beans>

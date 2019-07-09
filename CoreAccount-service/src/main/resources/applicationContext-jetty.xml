@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:cache="http://www.springframework.org/schema/cache"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+	http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.1.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd"
+	default-autowire="byName" default-lazy-init="false">
+
+<!-- =============================================================== -->
+<!-- Configure the Jetty Server with Spring                          -->
+<!-- This file is the similar to jetty.xml, but written in spring    -->
+<!-- XmlBeanFactory format.                                          -->
+<!-- =============================================================== -->
+
+	<!--<bean id="Server" class="org.eclipse.jetty.server.Server" init-method="start" destroy-method="stop">  -->
+        <!--<property name="connectors">  -->
+            <!--<list>  -->
+                <!--<bean id="Connector" class="org.eclipse.jetty.server.nio.SelectChannelConnector">  -->
+                    <!--<property name="port" value="8080" />  -->
+                <!--</bean>  -->
+            <!--</list>  -->
+        <!--</property>  -->
+  <!---->
+        <!--<property name="handler">  -->
+            <!--<bean id="handlers" class="org.eclipse.jetty.server.handler.HandlerList">  -->
+                <!--<property name="handlers">  -->
+                    <!--<list>  -->
+                    	<!--<ref bean="caculatePvHandler"/>-->
+                        <!--<bean class="org.eclipse.jetty.server.handler.DefaultHandler" />  -->
+                    <!--</list>  -->
+                <!--</property>  -->
+            <!--</bean>  -->
+        <!--</property>  -->
+    <!--</bean>  -->
+</beans>

@@ -1,0 +1,32 @@
+{
+  "datagramHeader" : {
+    "messageVer" : "1.000001",
+    "encryptionTag" : "0000000000000000000000000000000000000000000000000000000000000000",
+    "userName" : "MichaelMichaelMichaelMichael11",
+    "password" : "1234561234561234561234561234561234561234561234561234561234561234",
+    "senderId" : "320320320320320320320320320320",
+    "senderSystemCode" : "200301200301200301200301200301",
+    "receiverSystem" : "200700200700200700200700200700",
+    "sendTime" : "2013-12-12 11:00:11",
+    "format" : "txttxttxttxttxttxt",
+    "messageSequence" : "010303103001030010300153001085",
+    "messageCode" : "030007",
+    "length" : 3000,
+    "priority" : 99,
+    "requestStatus" : "000"
+  },
+  "datagramBody" : {
+    "operator" : "00110001100011000110",
+    "organ" : "00000001",
+    "authTeller" : "00000001000000010000",
+    "memo" : "",
+    "operateTime" : null,
+    "operateCode" : "",
+    "account" : "00000001000000010001",
+    "loanId" : "50",
+    "amount" : "1.0000001",
+    "amountMemo" : "amountMemo",
+    "debtProportion" : "1",
+    "tradeMemo" : "tradememo"
+  }
+}

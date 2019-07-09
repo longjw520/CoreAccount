@@ -1,0 +1,27 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.00",
+      "encryptionTag":"",
+      "userName":"",
+      "password":"",
+      "senderId":"",
+      "senderSystemCode":"000000",
+      "receiverSystem":"",
+      "sendTime":"2013-04-18 15:58:12",
+      "format":"json",
+      "messageSequence":"0000001366271892328",
+      "messageCode":"000003",
+      "length":3000,
+      "priority":99,
+      "requestStatus":"000",
+      "actualTradeTime":"2013-05-08 11:30:32"
+   },
+   "datagramBody":{
+      "operator":"000",
+      "organ":"001",
+      "authTeller":"002",
+      "operateTime":null,
+      "operateCode":"01",
+      "memo":null
+   }
+}

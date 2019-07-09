@@ -1,0 +1,42 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.0",
+      "encryptionTag":"0000",
+      "userName":"Michael",
+      "password":"123456",
+      "senderId":320,
+      "senderSystemCode":"200300",
+      "receiverSystem":"200700",
+      "sendTime":"20101011102410",
+      "format":"txt",
+      "messageSequence":"01001",
+      "messageCode":"010001",
+      "length":12,
+      "priority":2,
+      "requestStatus":"000",
+      "actualTradeTime":"2013-05-22 12:12:12"
+   },
+   "datagramBody":{
+      "operator":null,
+      "organ":"00000001",
+      "authTeller":null,
+      "memo":null,
+      "operateTime":null,
+      "customerNo":"012145454",
+      "type":"01",
+      "name":null,
+      "cardId":"421055445415",
+      "cardType":"1",
+      "signDate":null,
+      "invalidDate":null,
+      "signOrgan":null,
+      "gender":"1",
+      "birthday":"2000-10-11",
+      "password1":null,
+      "password2":null,
+      "password3":null,
+      "totalAcct":null,
+      "acctStatus":"1",
+      "operateCode":"001002"
+   }
+}

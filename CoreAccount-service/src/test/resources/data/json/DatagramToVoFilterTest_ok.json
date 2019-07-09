@@ -1,0 +1,29 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.0",
+      "encryptionTag":"0000",
+      "userName":"Michael",
+      "password":"123456",
+      "senderId":320,
+      "senderSystemCode":"200300",
+      "receiverSystem":"200700",
+      "sendTime":"2013-03-21 20:50:30",
+      "format":"txt",
+      "messageSequence":"0100101",
+      "messageCode":"010002",
+      "length":12,
+      "priority":2,
+      "requestStatus":"000",
+      "actualTradeTime":"2013-05-08 11:30:32"
+   },
+   "datagramBody":{
+      "totalAccountId":"0100000000000001",
+			"operator":"001",
+			"authTeller":"002",
+			"organ":"003",
+			"account":null,
+			"operateTime":null,
+			"operateCode":"02",
+			"memo":"beizhu"
+   }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"
+       default-autowire="byName" default-lazy-init="false">
+    <bean id="json" class="com.zendaimoney.coreaccount.rmi.utils.Json"/>
+
+    <util:set id="multipleVoMessageCode">
+        <value>020002</value>
+        <value>020044</value>
+        <value>990006</value>
+    </util:set>
+
+    <!-- 业务类型与报文体关系映射 -->
+    <util:map id="businessVos" value-type="java.lang.Class">
+        <entry key="000003" value="com.zendaimoney.coreaccount.rmi.vo.CalculateAccrualVo"/>
+        <entry key="000004" value="com.zendaimoney.coreaccount.rmi.vo.CachePvVo"/>
+        
+        <entry key="010001" value="com.zendaimoney.coreaccount.rmi.vo.CustomerVO"/>
+        <entry key="010002" value="com.zendaimoney.coreaccount.rmi.vo.LedgerVo"/>
+        <entry key="010003" value="com.zendaimoney.coreaccount.rmi.vo.LedgerVo"/>
+        <entry key="010004" value="com.zendaimoney.coreaccount.rmi.vo.LoanHouseholdVo"/>
+        <entry key="010005" value="com.zendaimoney.coreaccount.rmi.vo.LedgerDisableVo"/>
+        <entry key="010006" value="com.zendaimoney.coreaccount.rmi.vo.AccountStaUpdateVo"/>
+        
+        <entry key="020001" value="com.zendaimoney.coreaccount.rmi.vo.RechargeVo"/>
+        <entry key="020002" value="com.zendaimoney.coreaccount.rmi.vo.FrozenOrUnfreezeAmountVo"/>
+        <entry key="020005" value="com.zendaimoney.coreaccount.rmi.vo.EnchashmentVo"/>
+        <entry key="020041" value="com.zendaimoney.coreaccount.rmi.vo.RepaymentVo"/>
+        <entry key="020042" value="com.zendaimoney.coreaccount.rmi.vo.GrantLoanVo"/>
+        <entry key="020043" value="com.zendaimoney.coreaccount.rmi.vo.TransferAccountVo"/>
+        <entry key="020044" value="com.zendaimoney.coreaccount.rmi.vo.ChargeManagementCostVo"/>
+        <entry key="020045" value="com.zendaimoney.coreaccount.rmi.vo.LatePaymentInterestVo"/>
+        <entry key="020046" value="com.zendaimoney.coreaccount.rmi.vo.ExpiryInterestVo"/>
+        <entry key="020047" value="com.zendaimoney.coreaccount.rmi.vo.EarlySettlementVo"/>
+        
+        <entry key="030005" value="com.zendaimoney.coreaccount.rmi.vo.OriginalLoanTradeVo"/>
+        <entry key="030003" value="com.zendaimoney.coreaccount.rmi.vo.DebtAssignmentsVo"/>
+        <entry key="030006" value="com.zendaimoney.coreaccount.rmi.vo.FroOrUnfreProportionVo"/>
+        <entry key="030007" value="com.zendaimoney.coreaccount.rmi.vo.ExternalLoanInitializationVo"/>
+        <entry key="030008" value="com.zendaimoney.coreaccount.rmi.vo.RegressLoanTradeVo"/>
+        
+        <entry key="060001" value="com.zendaimoney.coreaccount.rmi.vo.ReverseVo"/>
+        
+        <entry key="990001" value="com.zendaimoney.coreaccount.rmi.vo.QueryLedgerLoanVo"/>
+        <entry key="990004" value="com.zendaimoney.coreaccount.rmi.vo.QueryObligationsVo"/>
+        <entry key="990003" value="com.zendaimoney.coreaccount.rmi.vo.QueryAccountsReceivableAndPayableVo"/>
+        <entry key="990002" value="com.zendaimoney.coreaccount.rmi.vo.QueryLedgerFinanceVo"/>
+        <entry key="990007" value="com.zendaimoney.coreaccount.rmi.vo.QueryReturnValueVo"/>
+        <entry key="990005" value="com.zendaimoney.coreaccount.rmi.vo.CalculatePvVo"/>
+        <entry key="990006" value="com.zendaimoney.coreaccount.rmi.vo.QueryRepaymentPlanVo"/>
+    </util:map>
+</beans>

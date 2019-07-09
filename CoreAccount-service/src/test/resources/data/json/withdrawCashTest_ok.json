@@ -1,0 +1,32 @@
+{
+   "datagramHeader":{
+      "messageVer":"1.0",
+      "encryptionTag":"0000",
+      "userName":"test",
+      "password":"test",
+      "senderId":320,
+      "senderSystemCode":"200300",
+      "receiverSystem":"200700",
+      "sendTime":"2013-04-11 01:20:03",
+      "format":"txt",
+      "messageSequence":"130412155219",
+      "messageCode":"020005",
+      "length":12,
+      "priority":2,
+      "requestStatus":"000",
+      "actualTradeTime":"2013-05-08 11:30:32"
+  },
+  "datagramBody" : {
+    "operator" : "00110001100011000110",
+    "organ" : "00000001",
+    "authTeller" : "00000001000000010000",
+    "memo" : null,
+    "operateTime" : null,
+    "operateCode" : null,
+    "account" : "00000001000000010001",
+    "amount" : 234,
+    "chargeAmount" : 64456,
+    "enchashmentMemo" : "",
+    "chargeMemo" : ""
+  }
+}

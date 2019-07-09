@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<AC_T_CUSTOMER id="1" Customer_No="01" name="凤姐" ORGAN="01" Total_Acct="phoenix" card_type="01" card_id="4225822197541225641"/>
+	<AC_T_CUSTOMER id="2" Customer_No="01" name="凤姐" ORGAN="02000000" Total_Acct="0200000000000001" card_type="01" card_id="689854545"/>
+	<AC_T_CUSTOMER id="3" Customer_No="01" name="凤姐" ORGAN="03000000" Total_Acct="0300000000000001" card_type="01" card_id="2254456456"/>
+	<AC_T_CUSTOMER id="4" Customer_No="01" name="凤姐" ORGAN="03000000" Total_Acct="0300000000000002" card_type="01" card_id="423424324343"/>
+	<AC_T_CUSTOMER id="5" Customer_No="01" name="凤姐" ORGAN="04000000" Total_Acct="0400000000000001" card_type="01" card_id="4234343"/>
+</dataset>
